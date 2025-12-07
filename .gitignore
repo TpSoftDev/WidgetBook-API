@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Widgetbook generated files
+**/widgetbook/**/local.properties
+**/widgetbook/**/.plugin_symlinks/
+**/widgetbook/**/ios/Flutter/ephemeral/
+**/widgetbook/**/ios/Flutter/Generated.xcconfig
+**/widgetbook/**/ios/Flutter/flutter_export_environment.sh
+**/widgetbook/**/GeneratedPluginRegistrant.*
