@@ -17,6 +17,9 @@ jobs:
     # The type of machine to run on
     # ubuntu-latest = Latest Ubuntu Linux (free, provided by GitHub)
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       # Download code from repository
       - name: Checkout code
